@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PercentGraphView">
+        <attr name="innerCircleColor" format="color"/>  <!--内圆颜色-->
+        <attr name="outCircleColor" format="color"/>  <!--外圆颜色-->
+        <attr name="outCircleStrokeWidth" format="dimension"/>      <!--每一个矩形顶部渐变颜色-->
+        <attr name="textColor" format="color"/>   <!--字体颜色-->
+        <attr name="textSize" format="dimension"/>  <!--字体大小!-->
+        <attr name="text" format="string"/>   <!--字体内容-->
+        <attr name="startAngle" format="float"/>
+        <attr name="swapAngle" format="float"/>
+    </declare-styleable>
+
+</resources>

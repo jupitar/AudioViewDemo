@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyAudioView">
+        <attr name="rectCount" format="integer"/>  <!--小矩形数目-->
+        <attr name="rectOffset" format="integer"/>  <!--矩形之间偏移量-->
+        <attr name="topColor" format="color"/>      <!--每一个矩形顶部渐变颜色-->
+        <attr name="bottomColor" format="color"/>   <!--每一个矩形底部渐变颜色-->
+        <attr name="delayTime" format="integer"/>   <!--小矩形变化的延迟时间（毫秒)-->
+    </declare-styleable>
+
+</resources>
